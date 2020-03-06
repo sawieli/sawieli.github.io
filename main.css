@@ -10,7 +10,7 @@ body {
   padding: 1em;
   line-height: 1.3;
   font-size: 1.2em;
-  min-height: calc(100vh + 600px);
+  min-height: calc(100vh - 200px);
 }
 
 h1 {
@@ -27,13 +27,20 @@ img {
 }
 
 div.telo {
-  background: red;
-  min-height: calc(100vh + 600px);
+  min-height: calc(100vh - 100px);
+}
+
+div.c2020 {
+  height: 200px;
+  background: yellow;
+  display: table-cell;
+  vertical-align: bottom;
 }
 
 footer {
-  height: 80px;
+  height: 150px;
   left: 1em;
+  background: red;
   bottom: 0;
   padding: 0em;
   width: 100%;
