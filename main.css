@@ -100,8 +100,8 @@ table, tr, td {
   width: 80%;
   text-align: left;
   vertical-align: bottom;
-  margin: 5px 5px;
   overflow: hidden;
+  padding: 0em;
 }
 
 img.tablepic {
