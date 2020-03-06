@@ -18,9 +18,69 @@ h1 {
   font-size: 1.75em;
 }
 
-a:hover {
-  background-color: orange;
+a.buttlink:link {
+  display: block;
+  width: 150px;
+  height: 90px;
+  background: url(buttonblue.svg) repeat-x left bottom;
+  color: blue;
+  background-color: white;
 }
+
+a.buttlink:visited {
+  display: block;
+  color: blue;
+  background-color: white;
+  text-decoration: none;
+}
+
+a.buttlink:hover {
+  display: block;
+  color: #FFBF00;
+  background: url(buttonorange.svg) repeat-x left bottom;
+  background-color: white;
+  text-decoration: none;
+}
+
+a.backlink:link {
+  display: block;
+  width: 150px;
+  height: 90px;
+  background: url(backblue.svg) repeat-x left bottom;
+  color: blue;
+  background-color: white;
+}
+
+a.backlink:visited {
+  display: block;
+  color: blue;
+  background-color: white;
+  text-decoration: none;
+}
+
+a.backlink:hover {
+  display: block;
+  color: #FFBF00;
+  background: url(backorange.svg) repeat-x left bottom;
+  background-color: white;
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #FFBF00;
+  text-decoration: none;
+}
+
 
 img {
 	max-width: 70%;
@@ -32,7 +92,6 @@ div.telo {
 
 div.c2020 {
   height: 200px;
-  background: yellow;
   display: table-cell;
   vertical-align: bottom;
 }
@@ -40,7 +99,6 @@ div.c2020 {
 footer {
   height: 150px;
   left: 1em;
-  background: red;
   bottom: 0;
   padding: 0em;
   width: 100%;
@@ -52,3 +110,11 @@ footer {
 		margin: 0 auto;
 		font-size: 16px;
 	}
+
+td {
+  width: 10000px;
+}
+
+td.leftcol {
+      vertical-align: top;
+     }
