@@ -11,6 +11,8 @@ body {
   line-height: 1.3;
   font-size: 1.2em;
   min-height: calc(100vh - 200px);
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -18,52 +20,13 @@ h1 {
   font-size: 1.75em;
 }
 
-a.buttlink:link {
-  display: block;
-  width: 150px;
-  height: 90px;
-  background: url(buttonblue.svg) repeat-x left bottom;
-  color: blue;
-  background-color: white;
+h2 {
+  font-weight: normal;
+  font-size: 1.5em;
 }
 
-a.buttlink:visited {
-  display: block;
-  color: blue;
-  background-color: white;
-  text-decoration: none;
-}
-
-a.buttlink:hover {
-  display: block;
-  color: #FFBF00;
-  background: url(buttonorange.svg) repeat-x left bottom;
-  background-color: white;
-  text-decoration: none;
-}
-
-a.backlink:link {
-  display: block;
-  width: 150px;
-  height: 90px;
-  background: url(backblue.svg) repeat-x left bottom;
-  color: blue;
-  background-color: white;
-}
-
-a.backlink:visited {
-  display: block;
-  color: blue;
-  background-color: white;
-  text-decoration: none;
-}
-
-a.backlink:hover {
-  display: block;
-  color: #FFBF00;
-  background: url(backorange.svg) repeat-x left bottom;
-  background-color: white;
-  text-decoration: none;
+div.deadbody {
+  min-height: calc(100vh - 100px);
 }
 
 a:link {
@@ -81,38 +44,21 @@ a:hover {
   text-decoration: none;
 }
 
+a.projectlink:hover {
+  background-color: white;
+}
 
 img {
-	max-width: 70%;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 40px;
+  padding-left: 0px;
 }
 
-div.telo {
-  min-height: calc(100vh - 100px);
-}
-
-div.c2020 {
+div.end {
   height: 220px;
   display: table-cell;
   vertical-align: bottom;
-}
-
-table, tr, td {
-  width: 80%;
-  text-align: left;
-  vertical-align: bottom;
-  overflow: hidden;
-  padding: 0em;
-}
-
-img.tablepic {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-td.tableinfo {
-  padding: 7px;
-  width: 300px;
-  font-size: 16px;
 }
 
 footer {
@@ -122,18 +68,3 @@ footer {
   padding: 0em;
   width: 100%;
 }
-
-@media only screen and (max-device-width: 480px) {
-	body {
-		max-width: 480px;
-		margin: 0 auto;
-		font-size: 16px;
-	}
-
-td {
-  width: 10000px;
-}
-
-td.leftcol {
-      vertical-align: top;
-     }
