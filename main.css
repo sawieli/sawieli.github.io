@@ -48,26 +48,9 @@ a.projectlink:hover {
   background-color: white;
 }
 
-img.zoomer {
+img.image {
   cursor:zoom-in;
 }
-
-/*
-img {
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  transition: all 300ms;
-}
-
-img:hover {
-  position: relative;
-  border-style: solid;
-  border-color: blue;
-  border: 20px 20px 20px 20px;
-}
-*/
 
 div.end {
   height: 220px;
@@ -111,7 +94,7 @@ h2.ifyouwant {
   width: 80%;
 }
 
-img.zoomer.popup {
+.popup {
 	position: absolute;
 	height:100%;
 	width:100%;
