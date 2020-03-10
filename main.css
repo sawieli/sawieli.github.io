@@ -8,6 +8,7 @@ html { font-family: 'Inter', sans-serif; }
   body {
     font-size: 0.6em;
     padding-left: 1em;
+    background-color: red;
   }
 }
 
