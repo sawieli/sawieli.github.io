@@ -4,6 +4,13 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 0.6em;
+    padding-left: 1em;
+  }
+}
+
 body {
   font-family: Inter;
   margin:0 ;
@@ -133,11 +140,4 @@ h2.ifyouwant {
 
 .popup_img {
   pointer-events: none;
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 0,8em;
-    padding-left: 1em;
-  }
 }
