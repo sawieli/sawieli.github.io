@@ -24,7 +24,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 600pxpx) {
+@media only screen and (max-width: 600px) {
   body {
     background-color: pink;
     font-size: 0.6em;
