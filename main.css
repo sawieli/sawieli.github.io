@@ -6,14 +6,14 @@ html { font-family: 'Inter', sans-serif; }
 
 body {
   font-family: Inter;
-  max-width: 1000px;
-  padding: 2em;
-  padding-left: 10em;
+  margin:0 ;
+  padding:0 ;
   line-height: 1.3;
   font-size: 1.2em;
   min-height: calc(100vh - 200px);
   overflow-y: scroll;
   scroll-behavior: smooth;
+  text-align:center;
 }
 
 h1 {
@@ -28,6 +28,10 @@ h2 {
 
 div.deadbody {
   min-height: calc(100vh - 100px);
+  max-width: 1000px;
+  margin:0 auto;
+  text-align:left;
+  background: pink;
 }
 
 a:link {
@@ -54,16 +58,18 @@ img.zoomer {
 }
 
 div.end {
-  height: 220px;
-  display: table-cell;
+  height: 150px;
+  max-width: 1000px;
   vertical-align: bottom;
+  max-width: 1000px;
+  margin:0 auto;
+  text-align:left;
 }
 
 footer {
-  height: 170px;
-  left: 1em;
-  bottom: 0;
-  padding: 0em;
+  height: 150px;
+  margin:0 ;
+  padding:0 ;
   width: 100%;
 }
 
@@ -76,15 +82,12 @@ header {
 div.goback {
   margin: 0;
   position: absolute;
-  left: 0;
   display: inline-block;
 }
 
 div.letstalk{
-  margin: 0;
-  position: absolute;
-  right: 0;
-  display: inline-block;
+  text-align: right;
+  padding-bottom: 80px;
 }
 
 h2.projecth2 {
