@@ -65,7 +65,7 @@ a:hover {
 
 a.projectlink:hover {
   background-color: white;
-  background-image: url('example.jpg');
+  background-image: url('images/example.jpg');
 }
 
 img.zoomer {
