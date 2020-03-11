@@ -48,6 +48,16 @@ div.deadbody {
   padding-top: 80px;
 }
 
+.projectblock {
+  background: #fc0;
+}
+
+.projectblock a {
+     display: block;
+     text-align: center;
+     height: 100%;
+}
+
 a:link {
   color: blue;
   text-decoration: none;
@@ -63,8 +73,10 @@ a:hover {
   text-decoration: none;
 }
 
-a.projectlink:hover {
+.projectlink:hover {
   background-color: white;
+
+}
 }
 
 img.zoomer {
