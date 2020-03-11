@@ -48,14 +48,28 @@ div.deadbody {
   padding-top: 80px;
 }
 
-.projectblock {
-  background: #fc0;
+.elementprojectlink {
+    position:fixed;
+    font-size:10px;
+    height:50px;
+    width:500px;
 }
 
-.projectblock a {
-     display: block;
-     text-align: center;
-     height: 100%;
+.elementprojectlink:hover {
+    background:#000;
+}
+
+.elementprojectlink img {
+    float:left;
+    height:30px;
+    width:30px;
+    opacity:1;
+}
+
+.textprojectlink {
+    display:inline-block;
+    height:37px;
+    width:183px;
 }
 
 a:link {
@@ -76,11 +90,6 @@ a:hover {
 .projectlink:hover {
   background-color: white;
 
-}
-}
-
-img.zoomer {
-  cursor:zoom-in;
 }
 
 div.end {
