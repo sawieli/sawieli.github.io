@@ -4,17 +4,36 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+
+
+
+/* Body */
+
+
 body {
   font-family: Inter;
   margin:0 ;
   padding:0 ;
   line-height: 1.3;
   font-size: 1.2em;
-  min-height: calc(100vh - 200px);
   overflow-y: scroll;
   scroll-behavior: smooth;
   text-align:center;
 }
+
+
+div.wrapperbody {
+  max-width: 1000px;
+  margin:0 auto;
+  text-align:left;
+  padding-top: 2em;
+}
+
+
+
+
+/* Media */
+
 
 @media only screen and (max-width: 1100px) {
   body {
@@ -30,6 +49,12 @@ body {
   }
 }
 
+
+
+
+/* Text */
+
+
 h1 {
   font-weight: normal;
   font-size: 1.75em;
@@ -40,37 +65,11 @@ h2 {
   font-size: 1.5em;
 }
 
-div.deadbody {
-  min-height: calc(100vh - 100px);
-  max-width: 1000px;
-  margin:0 auto;
-  text-align:left;
-  padding-top: 80px;
-}
 
-.elementprojectlink {
-    position:fixed;
-    font-size:10px;
-    height:50px;
-    width:500px;
-}
 
-.elementprojectlink:hover {
-    background:#000;
-}
 
-.elementprojectlink img {
-    float:left;
-    height:30px;
-    width:30px;
-    opacity:1;
-}
+/* Links */
 
-.textprojectlink {
-    display:inline-block;
-    height:37px;
-    width:183px;
-}
 
 a:link {
   color: blue;
@@ -87,51 +86,68 @@ a:hover {
   text-decoration: none;
 }
 
-.projectlink:hover {
-  background-color: white;
-
+.openproject {
+  padding-top: 3em;
 }
 
-div.end {
+
+/* Footer */
+
+
+.wrapperfooter {
   height: 150px;
   max-width: 1000px;
   vertical-align: bottom;
-  max-width: 1000px;
   margin:0 auto;
   text-align:left;
+  padding-top: 5em;
 }
 
 footer {
   height: 150px;
   margin:0 ;
-  padding:0 ;
+  padding: 0 ;
+  padding-top: 5em;
   width: 100%;
 }
 
-header {
-  position: sticky;
-  width: 100%;
-  padding-bottom: 80px;
-}
+
+
+/* Navigation */
+
 
 div.goback {
   margin: 0;
   position: absolute;
   display: inline-block;
-  padding-bottom: 80px;
+  padding-bottom: 5em;
 }
 
 div.letstalk{
   text-align: right;
-  padding-bottom: 80px;
+  padding-bottom: 5em;
 }
 
-h2.projecth2 {
-  padding-top: 40px;
-}
+
+
+
+/* Let's talk block */
+
 
 h2.ifyouwant {
+  padding-top: 5em;
   width: 80%;
+}
+
+
+
+
+
+/* Image Zoomer */
+
+
+.zoomer {
+  scale: zoom-in;
 }
 
 .popup {
