@@ -1,11 +1,44 @@
+
+<!--
+/**
+* @license
+* MyFonts Webfont Build ID 269893
+*
+* The fonts listed in this notice are subject to the End User License
+* Agreement(s) entered into by the website owner. All other parties are
+* explicitly restricted from using the Licensed Webfonts(s).
+*
+* You may obtain a valid license from one of MyFonts official sites.
+* http://www.fonts.com
+* http://www.myfonts.com
+* http://www.linotype.com
+*
+*/
+-->
+
 @import url('https://rsms.me/inter/inter.css');
 html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
 }
 
+@font-face {
+  font-family: SKIrrationalist-Regular;
+  src: url(fonts/font.ttf);
+}
 
+/* Head */
+header {
+  background: black;
+}
 
+div.wrapperheader {
+  max-width: 1000px;
+  max-height: 100px;
+  margin:0 auto;
+  text-align:left;
+  padding-top: 1em;
+}
 
 /* Body */
 
@@ -114,6 +147,25 @@ footer {
 
 
 /* Navigation */
+
+div.navi {
+  background: black;
+}
+
+div.logoname {
+  margin: 0;
+  font-family: SKIrrationalist-Regular;
+  color: white;
+  position: absolute;
+  display: inline-block;
+  padding-bottom: 5em;
+}
+
+div.russianlink {
+  text-align: right;
+  padding-bottom: 5em;
+  font-family: SKIrrationalist-Regular;
+}
 
 
 div.goback {
